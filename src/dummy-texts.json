@@ -5,9 +5,17 @@
         "title": "ReactMentoring is a platform for React developers to find mentors who can help them with their React-related questions and problems. We are a community of React developers who want to help each other succeed."
     },
 
+    "navigation": {
+        "title": "ReactMentoring",
+        "mission": "Our Mission",
+        "sessions": "Browse Sessions",
+        "upcomingSessions": "Upcoming Sessions"
+    },
+
     "session": {
         "headline": "Available mentoring sessions",
         "title": "From an one-on-one introduction to React's basics all the way up to a deep dive into state mechanics - we got just the right session foryou!",
-        "noFoundSession": "No session found!"
+        "noFoundSession": "No session found!",
+        "learnMore": "Learn More"
     }
 }
