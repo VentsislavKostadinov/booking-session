@@ -7,7 +7,6 @@ export default function SessionPage() {
 
     const sessionId = params.id
     const loadedSession = SESSIONS.find((session) => session.id === sessionId)
-
     if (!loadedSession) {
         return (
             <main id="session-page">
