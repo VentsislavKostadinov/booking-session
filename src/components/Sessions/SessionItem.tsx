@@ -1,4 +1,4 @@
-import { SessionItemProps } from '../../model/SessionItemProps'
+import { SessionItemProps } from '../../model/SessionProps/SessionItemProps'
 import { NavigateElement } from '../../UI/NavigateElement'
 import data from '../../dummy-texts.json'
 

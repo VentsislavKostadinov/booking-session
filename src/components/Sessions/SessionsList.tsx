@@ -1,4 +1,4 @@
-import { SessionsListProps } from '../../model/SessionsListProps'
+import { SessionsListProps } from '../../model/SessionProps/SessionsListProps'
 import { SessionItem } from './SessionItem'
 
 export const SessionsList = ({ sessions }: SessionsListProps) => {
