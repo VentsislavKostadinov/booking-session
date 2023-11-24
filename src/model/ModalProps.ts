@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 
 // This type is used with `forwardRef` to ensure that the `Modal` component can be used with `useImperativeHandle` to expose a `open` method
-export type ModalHandle = {
+export type ModalHandleProps = {
     open: () => void
 }
 

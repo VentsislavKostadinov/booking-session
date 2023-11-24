@@ -1,8 +1,8 @@
 import { forwardRef, useImperativeHandle, useRef } from 'react'
 import { createPortal } from 'react-dom'
-import { ModalHandle, ModalProps } from '../model/ModalProps'
+import { ModalHandleProps, ModalProps } from '../model/ModalProps'
 
-const Modal = forwardRef<ModalHandle, ModalProps>(function Modal(
+export const Modal = forwardRef<ModalHandleProps, ModalProps>(function Modal(
     { children, onClose },
     ref,
 ) {
@@ -27,5 +27,3 @@ const Modal = forwardRef<ModalHandle, ModalProps>(function Modal(
         document.getElementById('modal-root')!,
     )
 })
-
-export default Modal

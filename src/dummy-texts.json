@@ -19,9 +19,11 @@
     "session": {
         "headline": "Available mentoring sessions",
         "title": "From an one-on-one introduction to React's basics all the way up to a deep dive into state mechanics - we got just the right session foryou!",
-        "noFoundSession": "No session found!",
+        "noSessionFound": "No session found!",
         "learnMore": "Learn More",
         "bookSessionButton": "Book session",
-        "cancelBookSession": "Cancel"
+        "cancelBookSession": "Cancel",
+        "noUpcomingSessions": "No upcoming sessions.",
+        "closeText": "Close"
     }
 }

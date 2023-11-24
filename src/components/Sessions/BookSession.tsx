@@ -1,5 +1,5 @@
 import { FormEvent, useEffect, useRef } from 'react'
-import Modal from '../../UI/Modal.tsx'
+import { Modal } from '../../UI/Modal.tsx'
 import { ModalHandleProps } from '../../model/ModalHandleProps.ts'
 import { Input } from '../../UI/Input.tsx'
 import { NavigateElement } from '../../UI/NavigateElement.tsx'
@@ -30,7 +30,7 @@ export const BookSession = ({ session, onDone }: BookSessionProps) => {
 
     return (
         <Modal ref={modal} onClose={onDone}>
-            <h2>Book session</h2>
+            <h2>{data.session.bookSessionButton}</h2>
             <form onSubmit={handleSubmit}>
                 <Input label="Your name" id="name" name="name" type="text" />
                 <Input

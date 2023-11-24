@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import data from '../../dummy-texts.json'
-
-//import UpcomingSessions from '../Sessions/UpcomingSessions.jsx'
 import { NavigateElement } from '../../UI/NavigateElement'
+import { UpcomingSessions } from '../Sessions/UpcomingSessions'
 
 export const Navigation = () => {
     const [upcomingSessionsVisible, setUpcomingSessionsVisible] =
@@ -19,10 +18,9 @@ export const Navigation = () => {
 
     return (
         <>
-            {/*  {upcomingSessionsVisible && (
+            {upcomingSessionsVisible && (
                 <UpcomingSessions onClose={hideUpcomingSessions} />
-            )} 
-          */}
+            )}
             <header id="main-header">
                 <NavLink to="/">
                     <h1>{data.navigation.title}</h1>
